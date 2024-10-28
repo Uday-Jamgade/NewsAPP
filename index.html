@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+   
+    <div class="Nav  flex w-full h-16 justify-between p-4  bg-black"> 
+        <h1 class="text-3xl font-bold uppercase text-white"> News APP </h1>
+        <input class="px-6 py-3 border-2 rounded-xl  border-black"  placeholder="Serch the news" type="text">
+    </div>
+
+    <div class="container w-full px-8 pt-8">
+        <div class="card w-[20vw] h-[25vw] border-2 border-black rounded-xl ">
+           <img class="img w-full h-[200px] border-2 border-black p-2 cover object-fit" src="" alt="">
+           <h1 class="title text-2xl uppercase font-bold "> Title</h1>
+           <p class=" discription" > loream </p>
+
+        </div>     
+    </div>
+
+    
+</body>
+</html>
