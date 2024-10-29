@@ -4,35 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    
-    <div class="Nav  flex w-full h-16 justify-between p-4  bg-black"> 
-        <h1 class="text-3xl font-bold uppercase text-white"> News APP </h1>
-        <input class="px-6 py-3 border-2 rounded-xl  border-black"  placeholder="Serch the news" type="text">
+    <div class="Nav "> 
+      <div>
+        <h1 class=""> News APP </h1>
+      </div>
+        <div>
+          <input class=" input"  placeholder="Serch the news" type="text">
+          <Button > Search</Button>
+        </div>
+        
     </div>
 
-    <div class="container w-full px-8 pt-8">
-        <div class="card w-[20vw] h-[25vw] border-2 border-black rounded-xl ">
-           <img class="img w-full h-[200px] border-2 border-black p-2 cover object-fit" src="" alt="">
-           <h1 class="title text-2xl uppercase font-bold "> Title</h1>
-           <p class=" discription" > loream </p>
+    <div class="container ">
+        <!-- <div class="card  ">
+           <img  src="" alt="">
+           <h1 > Title</h1>
+           <p > Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae quod eaque ex modi temporibus corporis! Magnam aspernatur labore nemo obcaecati? </p>
 
-        </div>     
+        </div>      -->
     </div>
 
-    
+    <script src="script.js"></script>
 </body>
 </html>
